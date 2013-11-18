@@ -25,12 +25,16 @@ For demo purposes please use the following credientials
 
 username: birthday
 password: newborn
-</usage>
 
 Test
 ================
 Run unit test in "test/SpecRunner.html"
 
+Library Used
+================
+- AngularJS
+- UI Bootstrap for AngularJS
+- Jasmine
 
 ToDo
 ================
