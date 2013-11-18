@@ -1,0 +1,11 @@
+﻿.nav,
+.pagination,
+.carousel a {
+  cursor: pointer;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}

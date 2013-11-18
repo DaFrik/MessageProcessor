@@ -1,0 +1,9 @@
+<div ng-controller="OutBoxCtrl">
+    <h2>Processed</h2>
+    <span>{{outBoxMsgs.length}} items</span>
+    <ul class="outbox">
+        <li ng-repeat="msg in outBoxMsgs">
+            <div><a><span tooltip="{{msg | json}}">{{msg.messageTypeDesc}} message</span></a> to {{msg.data.name}} </div>
+        </li>
+    </ul>
+</div>

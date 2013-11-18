@@ -1,0 +1,9 @@
+<div ng-controller="InBoxCtrl">
+    <h2>To Be Processed</h2>
+    <span> {{inBoxMsgs.length}} items</span>
+    <ul class="inbox">
+    <li ng-repeat="msg in inBoxMsgs | limitTo: 5">
+        <a href="#/new/{{msg.messageType}}/{{msg.messageId}}">{{msg.messageTypeDesc}}</a>
+    </li>
+    </ul>
+</div>

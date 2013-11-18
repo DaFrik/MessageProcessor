@@ -1,0 +1,16 @@
+<form ng-submit="createNewBornMsg()">
+<div>
+<label>Name</label><input type="text" name="name" ng-model="viewModel.name" size="30"
+           placeholder="add your friend's name here" ng-required="true">
+<p>Whooa well done and congratulations on
+the birth of 
+ <select name="babyname" ng-model="viewModel.babyname" ng-options="value for value in babyNameList" ng-required="true">
+  <option value="">-- choose baby name --</option>
+ </select>
+on <div class="form-horizontal">
+        <input type="text" datepicker-popup="yyyy-MM-dd" name="dob" ng-model="viewModel.dob" is-open="opened" datepicker-options="dateOptions" ng-required="true" />
+        <button class="btn" ng-click="openDatePicker()"><span class="glyphicon glyphicon-calendar"></span></button>
+    </div>.</p>
+</div>  
+    <input class="btn-primary" type="submit" value="Create">
+</form>

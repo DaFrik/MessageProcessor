@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-md-12" ng-controller="LoginCtrl">
+        <form ng-submit="login()">
+        <h2>Please Login</h2>
+        <input type="text" name="name" ng-model="name" size="30"
+        placeholder="Name" ng-required="true">
+        <input type="password" name="pw" ng-model="pw" size="30"
+        placeholder="Password" ng-required="true">
+        <input class="btn-primary" type="submit" value="Submit">
+        <p>{{errorMsg}}</p>
+    </form>
+    </div>
+</div>
