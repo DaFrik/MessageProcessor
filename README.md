@@ -25,7 +25,6 @@ For demo purposes please use the following credientials
 
 username: birthday
 password: newborn
-</usage>
 
 Test
 ================
